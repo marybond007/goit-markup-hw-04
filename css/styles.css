@@ -418,6 +418,9 @@ align-items: center;
     align-items: baseline;
     background-color: var(--primary-bcg-color);
     padding: 60px 0;
+    
+
+    
 }
 
 .address {
