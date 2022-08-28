@@ -508,6 +508,7 @@ align-items: center;
 .header-line {
     border-bottom: 1px solid var(--hr-line-color);
 }
+
 .portfolio {
     list-style: none;
 }
