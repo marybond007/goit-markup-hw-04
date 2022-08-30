@@ -9,6 +9,7 @@
     --text-logo-color: #000000;
     --hr-line-color: #ECECEC;
     --contacts-footer-color: rgba(255, 255, 255, 0.6);
+    --social-lincs-color: #AFB1B8;
 }
 *{
     box-sizing: border-box;
@@ -158,7 +159,7 @@ align-items: center;
 
 
 .above {
-    display: block;
+    display: flex;
     align-items: center;
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -167,12 +168,12 @@ align-items: center;
     }
 .above-icon {
 margin-right: 10px;
+fill: currentColor;
 }
 
 .icon-contacts:hover  .above,
 .icon-contacts:focus  .above{
     color: var(--accent-text-color);
-    fill: currentColor;
 }
 
 
@@ -349,8 +350,7 @@ margin-right: 10px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: #FFFFFF;
-    color: var(--secondary-text-color);
+    color: var(--social-lincs-color);
 }
 .sotial-list-link:hover,
 .sotial-list-link:focus{
@@ -387,12 +387,12 @@ margin-right: 10px;
       height: 92px;
       border: 1px solid #AFB1B8;
       border-radius: 4px;
-      color:var(--secondary-text-color);
+      color:var(--social-lincs-color);
   }
   .customer-link:hover,
   .customer-link:focus {
       border-color: var(--accent-text-color);
-      color: var(--contacts-footer-color);
+      color: var(--accent-text-color);
   }
 .customer-icon {
     width: 106px;
